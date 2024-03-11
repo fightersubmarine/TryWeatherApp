@@ -6,4 +6,4 @@ Use:
 3. Openweathermap.org
 
 
-![](imagescreen/firstscreen.png)
+![](imagescreen/firstscreen.jpeg)
