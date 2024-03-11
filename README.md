@@ -5,5 +5,4 @@ Use:
 2. RXswift
 3. Openweathermap.org
 
-
-![](imagescreen/firstscreen.jpeg)
+<img src="imagescreen/firstscreen.jpeg" width="300" height="200">
