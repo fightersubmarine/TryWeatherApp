@@ -5,4 +5,4 @@ Use:
 2. RXswift
 3. Openweathermap.org
 
-<img src="imagescreen/firstscreen.jpeg" width="300" height="200">
+<img src="imagescreen/firstscreen.jpeg" width="400" height="900">
