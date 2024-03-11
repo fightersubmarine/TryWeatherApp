@@ -160,6 +160,11 @@ final class MainViewController: UIViewController {
             .disposed(by: disposeBag)
     }
     
+    func addTapGestureToHideKeyboard() {
+        let textFieldShouldReturn = UITapGestureRecognizer(target: view, action: #selector(view.endEditing))
+        view.addGestureRecognizer(textFieldShouldReturn)
+    }
+    
     // MARK: - Constraints
     
     func setupConstraints() {
@@ -220,10 +225,11 @@ final class MainViewController: UIViewController {
         updateView()
         addSubviews()
         setupConstraints()
+        addTapGestureToHideKeyboard()
     }
 }
 
-// MARK: - Private Extension
+    // MARK: - Private Extension
 
 private extension MainViewController {
     func configureCell(_ cell: UITableViewCell, withElement element: (String, String, String)) {
